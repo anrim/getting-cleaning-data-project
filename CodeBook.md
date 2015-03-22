@@ -16,14 +16,14 @@ The tidy data set includes the following file:
 
 The tidy HAR data set includes the following variables:
 
-- `Subject` The 30 subjects of the experiment from the source data set
+- `Subject` The subject identifier (number). Contains the 30 subjects of the experiment from the source data set
 
-- `Activity` The labeled activities of the subjects. The activity variable include the following values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING.
+- `Activity` The activity (string) that the subject of the experiment did. The activity variable include the following values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING.
 
-- `Features` The feature vector calculated from the accelerometer & gyroscope of the smartphone sensors.
+- `Features` The average of the mean (float) & standard deviation (float) feature vectors for each subject & activity calculated from the accelerometer & gyroscope of the smartphone sensors. See a list of the feature vectors below.
 
-The following list of feature variables contains the average of the mean & standard deviation from the source data variables for each subject and activity:
 
+### Feature vectors
 
 * "tBodyAcc-mean()-X"
 * "tBodyAcc-mean()-Y"
